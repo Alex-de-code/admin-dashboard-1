@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Dashboard from "../src/components/Dashboard/Dashboard";
+import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css";
 
 function App() {
@@ -8,7 +10,11 @@ function App() {
 
   return (
     <>
-      <div>DASHBOARD APP</div>
+      <div className="bg-slate-100 text-stone-950">
+        <div>DASHBOARD APP</div>
+        <Sidebar />
+        <Dashboard />
+      </div>
     </>
   );
 }
