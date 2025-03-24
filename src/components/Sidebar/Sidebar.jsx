@@ -1,6 +1,7 @@
 import React from "react";
 import AccountToggle from "./AccountToggle";
 import Search from "./Search";
+import RouteSelect from "./RouteSelect";
 
 const Sidebar = () => {
   return (
@@ -8,6 +9,7 @@ const Sidebar = () => {
       <div className="overflow-y-auto sticky top-4 h-[calc(100dvh-32px-48px)]">
         <AccountToggle />
         <Search />
+        <RouteSelect />
         {/* <div className="h-[200dvh]">Content</div> */}
       </div>
       {/* TODO: Plan toggle */}
