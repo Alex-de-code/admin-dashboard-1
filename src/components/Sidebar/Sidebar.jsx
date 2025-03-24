@@ -12,7 +12,7 @@ const Sidebar = () => {
         <RouteSelect />
         {/* <div className="h-[200dvh]">Content</div> */}
       </div>
-      {/* TODO: Plan toggle */}
+      <Plan />
     </div>
   );
 };
