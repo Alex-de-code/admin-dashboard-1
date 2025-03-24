@@ -12,7 +12,7 @@ const TopBar = () => {
     const dateTimeFormatter = new Intl.DateTimeFormat("en-US", {
       dateStyle: "long",
     });
-    //update state
+    // update state
     setFormattedDate(dateTimeFormatter.format(new Date()));
   }, []); // Empty dependency array means this runs once on mount
 
