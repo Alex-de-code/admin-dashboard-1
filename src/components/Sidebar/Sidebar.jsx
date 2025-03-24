@@ -2,6 +2,7 @@ import React from "react";
 import AccountToggle from "./AccountToggle";
 import Search from "./Search";
 import RouteSelect from "./RouteSelect";
+import Plan from "./Plan";
 
 const Sidebar = () => {
   return (
