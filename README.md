@@ -2,7 +2,7 @@
 
 A modern admin dashboard built to showcase frontend development skills using cutting-edge technologies.
 
-![Dashboard Screenshot](../admin-dashboard-1/src/assets/ScreenShot.png)
+![Dashboard Screenshot](./src/assets/ScreenShot.png)
 
 ## Features
 
@@ -26,20 +26,23 @@ A modern admin dashboard built to showcase frontend development skills using cut
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/admin-dashboard.git
+   git clone https://github.com/Alex-de-code/admin-dashboard-1.git
    ```
 
 2. Navigate to the project directory
 
-   ```
+   ```bash
    cd admin-dashboard
    ```
 
 3. Install dependencies
+
    ```
    npm install
    ```
+
 4. Start the development server
+
    ```
    npm run dev
    ```
