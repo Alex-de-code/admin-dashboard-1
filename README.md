@@ -4,6 +4,8 @@ A modern admin dashboard built to showcase frontend development skills using cut
 
 ![Dashboard Screenshot](./src/assets/ScreenShot.png)
 
+[Live Site](https://dashboard-admin-1.netlify.app/)
+
 ## Features
 
 - Responsive layout with Tailwind CSS

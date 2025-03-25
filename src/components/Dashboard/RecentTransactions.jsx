@@ -8,7 +8,7 @@ export const RecentTransactions = () => {
         <h3 className="flex items-center gap-1.5 font-medium">
           <FiDollarSign /> Recent Transactions
         </h3>
-        <button className="text-sm text-violet-500 hover:underline">
+        <button className="text-sm text-emerald-500 hover:underline">
           See all
         </button>
       </div>
